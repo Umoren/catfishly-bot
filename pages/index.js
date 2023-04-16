@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-// import { FaQuestionCircle } from 'react-icons/fa';
+import Script from 'next/script'
 import { Accordion, AccordionItem } from "flowbite-react";
 import Image from 'next/image';
 
@@ -64,7 +64,7 @@ export default function ChatbotPage() {
           <p className="text-sm">Catfishly@{currentYear}</p>
         </footer>
 
-        <script id="cgpt-script-chunky" data-handle="catfishly01" src="https://app.getchunky.io/app/chatUI-web/loader.js"></script>
+        <Script id="cgpt-script-chunky" data-handle="catfishly01" src="https://app.getchunky.io/app/chatUI-web/loader.js"></Script>
       </div>
     </Fragment>
   );
