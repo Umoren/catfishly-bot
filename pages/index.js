@@ -41,7 +41,8 @@ export default function ChatbotPage() {
         </header>
 
         {/* Main content */}
-        <main className="flex-grow flex items-center justify-center p-8">
+        <main className="flex-grow flex flex-col gap-4 items-center justify-center p-8">
+          <h1 className="text-2xl font-semibold text-center text-aquamarine-500">frequently asked questions...</h1>
           <div className="w-full md:w-1/2 lg:w-1/3">
             {/* FAQ section */}
             <Accordion alwaysOpen={true}>
