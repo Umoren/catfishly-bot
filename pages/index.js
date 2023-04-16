@@ -27,7 +27,7 @@ export default function ChatbotPage() {
       </Head>
       <div className="flex flex-col h-screen">
         {/* Header */}
-        <header className="bg-white py-8 px-4 md:flex gap-3 justify-center items-center">
+        <header className="bg-white py-8 px-4 md:flex gap-4 justify-center items-center">
 
           <Image
             src={'/catfishly.png'}
