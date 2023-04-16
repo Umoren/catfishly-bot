@@ -26,20 +26,13 @@ export default function ChatbotPage() {
       <div className="flex flex-col h-screen">
         {/* Header */}
         <header className="bg-white py-8 px-4">
-          <h1 className="text-3xl font-bold text-center text-aquamarine-500">I'm Catfishly, your catfish farming assistant. Ask me anything.</h1>
+          <h1 className="text-3xl font-bold text-center text-aquamarine-500">I&apos;m Catfishly, your catfish farming assistant. Ask me anything.</h1>
         </header>
 
         {/* Main content */}
         <main className="flex-grow flex items-center justify-center">
           <div className="w-full md:w-1/2 lg:w-1/3">
             {/* FAQ section */}
-            {/* <Accordion>
-              {faqItems.map((item, index) => (
-                <AccordionItem key={index} title={item.question}>
-                  <p className="text-gray-700">{item.answer}</p>
-                </AccordionItem>
-              ))}
-            </Accordion> */}
             <Accordion alwaysOpen={true}>
 
               {faqItems.map((item, index) => (
