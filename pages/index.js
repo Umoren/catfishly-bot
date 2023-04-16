@@ -34,6 +34,7 @@ export default function ChatbotPage() {
             width={50}
             height={50}
             className='mx-auto md:mx-0'
+            alt='AI catfish'
           />
           <h1 className="text-3xl font-bold text-center text-aquamarine-500">I&apos;m Catfishly, your catfish farming assistant. Ask me anything.</h1>
 
